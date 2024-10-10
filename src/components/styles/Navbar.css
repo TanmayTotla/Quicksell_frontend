@@ -1,0 +1,78 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF; /* White background */
+    border-bottom: 2px solid #E5E5E5; /* Light border at the bottom */
+}
+
+/* Container for display settings */
+.display-container {
+    position: relative;
+}
+
+/* Display button styling */
+.display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #E5E5E5;
+    border-radius: 5px;
+    padding: 2px 5px; /* Padding inside the button */
+    cursor: pointer;
+    margin: 20px 0px 20px 50px;
+}
+
+/* Icon size inside the display button */
+.display img {
+    height: 13px;
+}
+
+/* Text styling inside the display button */
+.display span {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+/* Dropdown settings container */
+.display-settings {
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 2px solid #E5E5E5;
+    top: 60px;
+    left: 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px; /* Shadow for dropdown */
+    padding: 5px 10px;
+    z-index: 100;
+}
+
+/* Individual setting item */
+.display-setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 180px;
+}
+
+/* Text inside each setting */
+.display-setting div {
+    font-size: 13px;
+    font-weight: 500;
+    color: #707070;
+}
+
+/* Select dropdown styling */
+.display-setting select {
+    font-size: 13px;
+    font-weight: 500;
+    color: #000000;
+    padding: 1px 5px;
+    border-radius: 5px;
+    border: 2px solid #E5E5E5;
+    background-color: #FFFFFF;
+    width: 90px;
+}

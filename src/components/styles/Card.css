@@ -1,0 +1,150 @@
+/* Main card styling */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjusted for more balanced spacing */
+    align-items: flex-start; /* Aligned items to the start for better readability */
+    background-color: #FFFFFF;
+    border-radius: 12px; /* Slightly larger radius for a softer look */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; /* Softer shadow for depth */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Card header styling */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* ID styling */
+.card-id {
+    color: #9B9B9B; /* Lighter color for subtlety */
+    font-size: 16px; /* Increased font size for visibility */
+}
+
+/* User avatar styling */
+.card-user {
+    position: relative;
+    margin-right: 8px;
+}
+
+.card-user-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px; /* Increased for better visibility */
+    width: 24px; /* Increased for better visibility */
+    background-color: #c16d24;
+    color: #FFFFFF;
+    font-size: 14px; /* Increased font size */
+    font-weight: bold; /* Made the font bolder */
+    border-radius: 50%; /* Changed to full circle */
+}
+
+/* Status indicators for users */
+.user-status {
+    position: absolute;
+    height: 14px; /* Adjusted for better visibility */
+    width: 14px; /* Adjusted for better visibility */
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    right: -4px;
+    bottom: -4px;
+}
+
+/* Active user status */
+.active-user {
+    background-color: green; /* Green for active users */
+}
+
+/* Inactive user status */
+.inactive-user {
+    background-color: #E5E5E5; /* Light grey for inactive users */
+}
+
+/* Card body styling */
+.card-body {
+    display: flex;
+    justify-content: flex-start; /* Aligned content to the left */
+    align-items: center;
+    width: 100%;
+    margin: 10px 0 20px; /* Spacing for body */
+}
+
+/* Image inside card body */
+.card-body img {
+    height: 20px; /* Slightly larger image for visibility */
+    width: auto; /* Maintained aspect ratio */
+    margin-right: 8px; /* Increased margin */
+}
+
+/* Span inside card body */
+.card-body span {
+    width: auto; /* Width set to auto for flexibility */
+    font-size: 14px; /* Increased font size */
+    font-weight: 500;
+    text-align: left;
+}
+
+/* Card footer styling */
+.card-footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Priority icon styling */
+.card-footer-priority {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px; /* Increased for better visibility */
+    width: 30px; /* Increased for better visibility */
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    margin-right: 10px; /* Spacing for priority */
+}
+
+/* Priority icon image */
+.card-footer-priority img {
+    height: 20px; /* Adjusted image size */
+}
+
+/* Tags styling */
+.card-footer-tags {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.card-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #E5E5E5;
+    padding: 2px 5px 2px 5px;
+    border-radius: 4px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    height: 20px;
+    /* width: fit-content; */
+}
+
+.card-tag span {
+    height: 12px;
+    width: 12px;
+    background-color: #bec2c8;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.card-tag div {
+    width: fit-content;
+    font-size: 13px;
+    font-weight: 400;
+    color: #75797f;
+}

@@ -1,0 +1,15 @@
+/* Reset default margins and set up font family for the entire body */
+body {
+  margin: 0; /* Remove default margin */
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 
+    'Droid Sans', 'Helvetica Neue', sans-serif, -apple-system, BlinkMacSystemFont; /* List of system and web-safe fonts */
+  
+  /* Improve text rendering for different operating systems */
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Styling for inline code elements */
+code {
+  font-family: 'Courier New', Monaco, Consolas, Menlo, source-code-pro, monospace; /* Monospaced font stack for code */
+}

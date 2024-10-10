@@ -1,0 +1,22 @@
+/* Page background styling */
+.page {
+    background-color: #f5f5f9; /* Light background for better readability */
+}
+
+/* Board layout */
+.board {
+    display: flex;
+    flex-wrap: wrap; /* Allow columns to wrap */
+    justify-content: center; /* Center columns in the board */
+    width: 100%;
+    min-height: 100vh; /* Full height for the board */
+    margin-top: 30px; /* Space above the board */
+}
+
+/* Group column styling */
+.group-column {
+    width: 280px; /* Fixed width for consistency */
+    margin: 0 20px 40px; /* Spacing around each column */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+}
